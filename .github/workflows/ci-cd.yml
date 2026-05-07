@@ -15,7 +15,7 @@ jobs:
       - name: Configurar Java
         uses: actions/setup-java@v3
         with:
-          java-version: '21' # Recomendado usar LTS (21) o verificar soporte de 23
+          java-version: '23' # Recomendado usar LTS (21) o verificar soporte de 23
           distribution: 'temurin'
 
       - name: Build con Maven
